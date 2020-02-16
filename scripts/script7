@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "el usuario es" > informe
+whoami >> informe
+echo "el grupo es" >> informe
+groups >> informe
+echo "la ubicacion es" >> informe
+pwd  >> informe
+echo "archivos" >> informe 
+ls >> informe
